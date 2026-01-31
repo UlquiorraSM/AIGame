@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Dungeon - Gemma 3 27B Edition</title>
+    <title>KI Game - Edition</title>
     <style>
         body { font-family: sans-serif; background: #121212; color: #e0e0e0; display: flex; flex-direction: column; height: 100vh; margin: 0; }
         
@@ -30,7 +30,7 @@
 
     <div id="setup-overlay">
         <div class="setup-box">
-            <h2>Gemma 3 RPG Setup</h2>
+            <h2>RPG Setup</h2>
             <p>Bitte gib deinen Hugging Face Token ein:</p>
             <input type="password" id="hfTokenInput" class="key-input" placeholder="hf_...">
             <button onclick="startGame()">Abenteuer starten</button>
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div id="log">KI: Das Abenteuer mit <b>Gemma 3 27B</b> beginnt. Was tust du?</div>
+    <div id="log">KI: Was tust du?</div>
     
     <div id="input-area">
         <input type="text" id="userInput" placeholder="Was tust du?" onkeydown="if(event.key==='Enter') sendToAI()">
@@ -127,4 +127,5 @@
         }
     </script>
 </body>
+
 </html>
